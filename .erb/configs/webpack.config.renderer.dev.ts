@@ -112,6 +112,11 @@ const configuration: webpack.Configuration = {
           'file-loader',
         ],
       },
+      {
+        test: /\.glsl$/,
+        use: 'raw-loader',
+        include: path.resolve(__dirname, '../../src/renderer/shaders'),
+      },
       // GLB
     ],
   },
