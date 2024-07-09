@@ -2197,9 +2197,9 @@ export default function App() {
         <directionalLight color="white" />
         <Suspense>
           <Model2 handleHovered={handleHovered} hovered={hovered} />
-          {/* <Model4 handleHovered={handleHovered} hovered={hovered} />
+          <Model4 handleHovered={handleHovered} hovered={hovered} />
           <Model3 handleHovered={handleHovered} hovered={hovered} />
-          <Model5 handleHovered={handleHovered} hovered={hovered} /> */}
+          <Model5 handleHovered={handleHovered} hovered={hovered} />
           <Preload all />
         </Suspense>
       </Canvas>
